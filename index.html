@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dima_cv</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="cv.css">
+</head>
+<body>
+	<div class="container mt20">
+		<div class="row">
+			<div class="col-md-4 ">
+				<div class="bg_white shadow_main text_light_gray">
+					<div>
+						<div id="name_on_foto">
+							<h3 class=" pl20"><strong><span id="my_name">Дмитрий</span><br><span id="my_surname">Савчук</span></strong></h3>
+						</div>
+						<img src="images/my_foto.jpg" class="img-responsive" alt="my foto :)" title="this is my foto">
+					</div>
+					
+					<div class="pad_container">
+						<p>
+							<i class="glyphicon glyphicon-user corp_color mr15"></i>
+							<span> Front End Developer</span>
+						</p>
+						<p>
+							<i class="glyphicon glyphicon-home corp_color mr15 mt10"></i>
+							<span id="trans_kiev"> Украина, Киев</span>
+
+						</p>
+						<p>
+							<i class="glyphicon glyphicon-education corp_color mr15 mt10"></i>
+							<span> НТУУ "КПИ"</span>
+
+						</p>
+						<p>
+							<i class="glyphicon glyphicon-envelope corp_color mr15 mt10"></i>
+							<span> savchycd@gmail.com</span>
+
+						</p>
+						<p>
+							<i class="glyphicon glyphicon-earphone corp_color mr15 mt10"></i>
+							<span> +38 093 191 81 12</span>
+
+						</p>
+						<hr>
+						<p class="fs18">
+							<i class="glyphicon glyphicon-asterisk corp_color mr15 mt10"></i>
+							<b id="skills"> Навыки</b>
+
+						</p>
+						<p class="mt10">
+							html, html5
+							<div class="br16 skills_line"></div>
+							<div class="br16 skills_line_real text_white text-center w80p bg_corp_color">80%</div>
+						</p>
+						<p class="mt10">
+							css, css3
+							<div class="br16 skills_line"></div>
+							<div class="br16 skills_line_real text_white text-center w80p bg_corp_color">80%</div>
+						</p>
+						<p class="mt10">
+							Bootstrap
+							<div class="br16 skills_line"></div>
+							<div class="br16 skills_line_real text_white text-center w70p bg_corp_color">70%</div>
+						</p>
+						<p class="mt10">
+							JavaScript
+							<div class="br16 skills_line"></div>
+							<div class="br16 skills_line_real text_white text-center w60p bg_corp_color">60%</div>
+						</p>
+						<p class="mt10">
+							jQuery
+							<div class="br16 skills_line"></div>
+							<div class="br16 skills_line_real text_white text-center w60p bg_corp_color">60%</div>
+						</p>
+						<p class="mt10">
+							Git
+							<div class="br16 skills_line"></div>
+							<div class="br16 skills_line_real text_white text-center w40p bg_corp_color">40%</div>
+						</p>
+						<div id="visible_show" class="displ_none">
+							<p class="mt10">
+								Photoshop 
+								<div class="br16 skills_line"></div>
+								<div class="br16 skills_line_real text_white text-center w50p bg_corp_color">50%</div>
+							</p>
+							<p class="mt10">
+								Avocode 
+								<div class="br16 skills_line"></div>
+								<div class="br16 skills_line_real text_white text-center w80p bg_corp_color">80%</div>
+							</p>
+							<p class="mt10">
+								Trello(Task manager) 
+								<div class="br16 skills_line"></div>
+								<div class="br16 skills_line_real text_white text-center w80p bg_corp_color">80%</div>
+							</p>
+
+						</div>
+						<p class="text-center corp_color" id="show_more">
+							<i class="glyphicon glyphicon-menu-down cursor sl_bord" id="down_up"></i>
+						</p>
+
+						<p class="fs18">
+							<!-- <i class="glyphicon glyphicon-asterisk corp_color mr15 mt10"></i> -->
+							<i class="glyphicon glyphicon-globe corp_color mr15 mt10" aria-hidden="true"></i>
+							<b id="language">Языки</b>
+						</p>
+						<p class="mt10">
+							<span id="rus">Русский</span>
+							<div class="br16 skills_line big"></div>
+							<div class="br16 skills_line_real text_white text-center big w100p bg_corp_color"></div>
+						</p>
+						<p class="mt10">
+							<span id="ua">Украинский</span>
+							<div class="br16 skills_line big"></div>
+							<div class="br16 skills_line_real text_white text-center big w100p bg_corp_color"></div>
+						</p>
+						<p class="mt10">
+							<span id="engl">Английский</span>
+							<div class="br16 skills_line big"></div>
+							<div class="br16 skills_line_real text_white text-center big w50p bg_corp_color"></div>
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="col-md-8 text_light_gray">
+				<div class="text_gray bg_white shadow_main pad_container">
+					<div class="f_right">
+						<span class="cursor lang" id="lang_ru"> ru</span>
+						<span class="cursor lang" id="lang_en"> en</span>
+						<br>
+						<br>
+						<span id="color_orange" class="span_color cursor active_color"> </span>
+						<span id="color_green" class="span_color cursor"></span>
+					</div>
+					<p class="fs30 mb40">
+						<!-- <i class="glyphicon glyphicon-asterisk corp_color mr15 mt10"></i> -->
+						<i class="glyphicon glyphicon-briefcase corp_color mr15 mt10 " aria-hidden="true"></i>
+						<b id="exp"> Опыт работы</b>
+					</p>
+					<div class="pl20 pr20">
+						<p><b> <span id="admin">html-верстальщик, администратор сайта</span> / <a href="https://www.softcom.ua" target="_blank">Софтком (softcom.ua)</a></b></p>
+						<p>
+							<i class="glyphicon glyphicon-calendar corp_color mr15 mt10"></i>
+							<span> <span id="feb">Февраль</span> 2017 - <span class="bg_corp_color text_white current"><b id="current_lang">Cейчас</b></span> </span>
+						</p>	
+						<p>Верстка страниц сайта согласно макета, адаптивность, заполнение отчетов по сайту.</p>
+						<hr >
+
+						<p><b> <span id="front">Верстальщик</span> / <a href="http://hilgrup.com/proekty/programmnoe-obespechenie/" target="_blank">Hilgrup (hilgrup.com)</a></b></p>
+						<p>
+							<i class="glyphicon glyphicon-calendar corp_color mr15 mt10"></i>
+							<span> <span id="may">Май</span> 2016 - <span id="dec">Декабрь</span> 2016  </span>
+						</p>	
+						<p>Верстка страниц веб-приложения для рекламных стопперов.</p>
+						<hr >
+
+						<p><b> <span id="remote_work">Верстальщик (удаленная работа)</span> / Ant-soft</b></p>
+						<p>
+							<i class="glyphicon glyphicon-calendar corp_color mr15 mt10"></i>
+							<span> <span id="jan">Январь</span> 2016 - <span id="apr">Апрель</span> 2016  </span>
+						</p>	
+						<p>Верстка страниц веб-приложений и сайтов, адаптивность под мобильные устройства.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8 text_light_gray mt20 ">
+				<div class="text_gray bg_white shadow_main pad_container">
+					<p class="fs30 mb40">
+						<!-- <i class="glyphicon glyphicon-asterisk corp_color mr15 mt10"></i> -->
+						<i class="glyphicon glyphicon-certificate corp_color mr15 mt10 " aria-hidden="true"></i>
+						<b id="add_ed"> Дополнительное образование</b>
+					</p>
+					<div class="pl20 pr20">
+						<p><b> "Перспектива XXI век" <a href="http://www.xxi.kiev.ua/"> xxi.kiev.ua</a></b></p>
+						<p class="corp_color">
+							<i class="glyphicon glyphicon-calendar mr15 mt10"></i>
+							<span> 2014 </span>
+						</p>	
+						<p>Основы веб дизайна, Photoshop</p>
+						<hr >
+
+						<p><b> "IT Education Academy" <a href="https://itea.ua/"> itea.ua</a></b></p>
+						<p class="corp_color">
+							<i class="glyphicon glyphicon-calendar mr15 mt10"></i>
+							<span> 2014 - 2015 </span>
+						</p>	
+						<p>HTML/CSS, JavaScript базовый, JavaScript продвинутый</p>
+						<hr >
+
+						<p><b> "WEB CAMP" <a href="https://www.webcamp.com.ua/"> webcamp.com.ua</a></b></p>
+						<p class="corp_color">
+							<i class="glyphicon glyphicon-calendar mr15 mt10"></i>
+							<span> 2015 </span>
+						</p>	
+						<p>Front End практика. Верстка сайтов и нарезка макетов с использованием: Photoshop, git, HTML5/CSS3, HTML/CSS, Bootstrap, JavaScript, jQuery.</p>
+					</div>
+
+					
+					<p class="fs30 mt20">
+						<!-- <i class="glyphicon glyphicon-asterisk corp_color mr15 mt10"></i> -->
+						<i class="glyphicon glyphicon-certificate corp_color mr15 mt10 " aria-hidden="true"></i>
+						<b id="self">Самостоятельное обучение</b>
+					</p>
+					<div class="pl20 pr20">
+						<p class="corp_color">
+							<i class="glyphicon glyphicon-calendar mr15 mt10"></i>
+							<span> 2014 -2015</span>
+						</p>	
+						<p><i class="glyphicon glyphicon-book corp_color"></i> Эрик Фримен O'REILLY «Изучаем HTML, XHTML и CSS»</p>
+						<p><i class="glyphicon glyphicon-book corp_color"></i> Эрик Фримен O'REILLY «Изучаем программирование на HTML5»</p>
+					</div>
+
+					<p class="fs30 mt20">
+						<!-- <i class="glyphicon glyphicon-asterisk corp_color mr15 mt10"></i> -->
+						<i class="glyphicon glyphicon-tree-conifer corp_color mr15 mt10 " aria-hidden="true"></i>
+						<b> Хобби</b>
+					</p>
+					<div class="pl20 pr20">
+						<p class="">
+							<i class="corp_color glyphicon glyphicon-picture mr15 mt10"></i>
+							<span> Подводная охота, рыбалка, велоспорт </span>
+						</p>	
+						<p><i class="glyphicon glyphicon-camera corp_color mr15"></i><a href="foto.html">Cмотреть фото...</a></p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid bg_corp_color mt20">
+		<p class="text-center text_white mt10">Find me on social media.</p>
+		<p class="text-center"><a href="https://www.linkedin.com/feed/?trk=eml-b2_professional_identity_digest-null-24-null" target="_blank"><img src="images/in.png" alt="" class="w40"></a></p>
+	</footer>
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
+
+<head>
+<script type="text/javascript"></script>	
+</head>
